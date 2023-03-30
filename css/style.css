@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #292929;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    height: 100%;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.img-1 {
+    background-image: url('../img/image-1.jpg');
+    min-height: 100vh;
+}
+
+.img-2 {
+    background-image: url('../img/image-2.jpg');
+    min-height: 400px;
+}
+
+.img-3 {
+    background-image: url('../img/image-3.jpg');
+    min-height: 400px;
+}
+
+.img-4 {
+    background-image: url('../img/image-4.jpg');
+    min-height: 400px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.padding-title {
+    background: #6d6875;
+    color: #fff;
+    padding: 15px 25px;
+}
+
+.transparent {
+    background: none;
+}
+
+.section {
+    padding: 35px 30px;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.section-light {
+    background-color: #fae1dd;
+}
+
+.section-dark {
+    background-color: #d8e2dc;
+}
+
+@media(max-width: 760px) {
+
+    .img-1,
+    .img-2,
+    .img-3,
+    .img-4 {
+
+        background-attachment: scroll;
+    }
+}
